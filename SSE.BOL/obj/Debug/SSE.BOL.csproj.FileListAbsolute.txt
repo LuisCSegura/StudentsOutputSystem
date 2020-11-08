@@ -1,0 +1,6 @@
+D:\Projects\VisualStudioProjects\SSE\SSE.BOL\bin\Debug\SSE.BOL.dll
+D:\Projects\VisualStudioProjects\SSE\SSE.BOL\bin\Debug\SSE.BOL.pdb
+D:\Projects\VisualStudioProjects\SSE\SSE.BOL\obj\Debug\SSE.BOL.csprojAssemblyReference.cache
+D:\Projects\VisualStudioProjects\SSE\SSE.BOL\obj\Debug\SSE.BOL.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudioProjects\SSE\SSE.BOL\obj\Debug\SSE.BOL.dll
+D:\Projects\VisualStudioProjects\SSE\SSE.BOL\obj\Debug\SSE.BOL.pdb

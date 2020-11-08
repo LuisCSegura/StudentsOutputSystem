@@ -1,0 +1,10 @@
+D:\Projects\VisualStudioProjects\SSE\SSE\bin\Debug\SSE.exe.config
+D:\Projects\VisualStudioProjects\SSE\SSE\bin\Debug\SSE.exe
+D:\Projects\VisualStudioProjects\SSE\SSE\bin\Debug\SSE.pdb
+D:\Projects\VisualStudioProjects\SSE\SSE\obj\Debug\SSE.csprojAssemblyReference.cache
+D:\Projects\VisualStudioProjects\SSE\SSE\obj\Debug\SSE.FrmMain.resources
+D:\Projects\VisualStudioProjects\SSE\SSE\obj\Debug\SSE.Properties.Resources.resources
+D:\Projects\VisualStudioProjects\SSE\SSE\obj\Debug\SSE.csproj.GenerateResource.cache
+D:\Projects\VisualStudioProjects\SSE\SSE\obj\Debug\SSE.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudioProjects\SSE\SSE\obj\Debug\SSE.exe
+D:\Projects\VisualStudioProjects\SSE\SSE\obj\Debug\SSE.pdb
