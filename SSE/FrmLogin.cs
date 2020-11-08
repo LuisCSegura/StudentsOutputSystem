@@ -41,9 +41,11 @@ namespace SSE
                 u=bll.Login(u);
                 if (u.Id > 0)
                 {
-                    FrmMain frm = new FrmMain();
+                    FrmMain frm = new FrmMain(u,this);
+                    this.txtUser.Text = "";
+                    this.txtPassword.Text = "";
                     frm.Visible = true;
-                    this.Hide();
+                    this.Visible = false;
                 }
                 else
                 {

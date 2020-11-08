@@ -14,7 +14,7 @@ namespace SSE.DAL
         {
             Connection connection = new Connection();
 
-            String sqlCode = "SELECT id,name,password FROM users WHERE name=@name AND password=@password";
+            String sqlCode = "SELECT id,name,password,is_admin FROM users WHERE name=@name AND password=@password";
             try
             {
                 connection.Connect();
@@ -27,6 +27,7 @@ namespace SSE.DAL
                 if (rs.Read())
                 {
                     u.Id = Convert.ToInt32(rs[0]);
+                    u.IsAdmin = (bool)rs[3];
                 }
             }
             catch (Exception e)

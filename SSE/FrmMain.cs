@@ -14,15 +14,22 @@ namespace SSE.UIL
 {
     public partial class FrmMain : Form
     {
+        FrmLogin login;
+        User user;
         int selectedRow;
         StudentBLL bll;
         List<Student> students;
-        public FrmMain()
+        public FrmMain(User u, FrmLogin l)
         {
+            this.login = l;
+            this.user = u;
             this.bll = new StudentBLL();
             this.students = new List<Student>();
             InitializeComponent();
             RefreshData();
+            this.btnCreate.Enabled = u.IsAdmin;
+            this.btnDelete.Enabled = u.IsAdmin;
+            this.btnUpdate.Enabled = u.IsAdmin;
         }
 
         private void FrmMain_Paint(object sender, PaintEventArgs e)
@@ -169,7 +176,7 @@ namespace SSE.UIL
 
         private void FrmMain_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            this.login.Visible = true;
         }
     }
 }
